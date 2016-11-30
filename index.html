@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
+
+<div id="photo-overlay" class="dn">{% include photo-overlay.html %}</div>
+
 <div class="f6">
 <!-- Editor – More may end up here -->
-<div class="w-66 fl f6">
-  <div class="ma4 mr0 ba br2 vh-100">
-  </div>
-</div>
+{% include story-editor.html %}
 
 <!-- Sidebar -->
 <div class="w-33 fl">
@@ -46,26 +46,22 @@ layout: default
     <div class="ma3">
       <h3>Standard</h3>
       <ul class="list pl0">
-        <li class="fl">Featured audio/video</li>
-        {% include select.html %}
-        <li class="fl">Wide image</li>
-        {% include select.html %}
-        <li class="fl">Standard image/sideshow</li>
-        {% include select.html %}
-        <li class="fl">Square image</li>
-        {% include select.html %}
+        <li class="">Featured audio/video <a class="cursor-pointer" href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
+        <li>Wide image <a class="cursor-pointer" href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
+        <li>Standard image/sideshow <a class="cursor-pointer" href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
+        <li>Square image <a class="cursor-pointer" href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
       </ul>
 
       <h3>Specialized</h3>
       <ul class="list pl0">
         <li class="fl">Featured book edition</li>
-        {% include select.html %}
+        {% include photo-chooser.html %}
         <li class="fl">Music brick image</li>
-        {% include select.html %}
+        {% include photo-chooser.html %}
         <li class="fl">NPR One promo audio</li>
-        {% include select.html %}
+        {% include photo-chooser.html %}
         <li class="fl">NPR One intro audio</li>
-        {% include select.html %}
+        {% include photo-chooser.html %}
       </ul>
 
     </div>
