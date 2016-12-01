@@ -1,7 +1,8 @@
 function toggle_visibility(id) {
-  var e = document.getElementById(id);
-  if(e.style.display == 'block')
-    e.style.display = 'none';
-    else
-    e.style.display = 'block';
-  }
+	var id = document.getElementById(id);
+
+  if (id.style.display == 'block')
+    id.style.display = 'none';
+  else
+    id.style.display = 'block';
+}
