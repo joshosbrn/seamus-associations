@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-<!-- Various overlays that are hidden until their respective 'edit' links are clicked -->
-<div id="photo-overlay" class="dn">{% include photo-overlay.html %}</div>
-<div id="audio-overlay" class="dn">{% include audio-overlay.html %}</div>
-
 <div class="f6">
   <!-- Editor – More may end up here -->
   {% include story-editor.html %}
@@ -14,50 +10,50 @@ layout: default
 
     <!-- Associations -->
     <div class="ma4 lh-copy ba br2">
-      <h2 class="mt0 bb pa3 f4">Associations</h2>
+      <h2 class="mt0 bb pa3 f4 bg-black-10">Associations</h2>
       <div class="ma3">
 
         <h3>Byline</h3>
         <ul class="list pl0">
-          <li>Bylines <a href="">edit</a></li>
-          <li>Organization <a href="">edit</a></li>
+          <li>Bylines <a href="javascript:void(0)">edit</a></li>
+          <li>Organization <a href="javascript:void(0)">edit</a></li>
         </ul>
 
         <h3>Digital</h3>
         <ul class="list pl0">
-          <li>Topics <a href="">edit</a></li>
-          <li>Series/Genre/Tags <a href="">edit</a></li>
-          <li>Helper Collection <a href="">edit</a></li>
-          <li>Blog Category <a href="">edit</a></li>
+          <li>Topics <a href="javascript:void(0)">edit</a></li>
+          <li>Series/Genre/Tags <a href="javascript:void(0)">edit</a></li>
+          <li>Helper Collection <a href="javascript:void(0)">edit</a></li>
+          <li>Blog Category <a href="javascript:void(0)">edit</a></li>
         </ul>
 
         <h3>Broadcast</h3>
         <ul class="list pl0">
-          <li>Newsflex ID <a href="">edit</a></li>
-          <li>Program &amp; Episode <a href="">edit</a></li>
-          <li>Story Audio <a href="">assign audio</a></li>
+          <li>Newsflex ID <a href="javascript:void(0)">edit</a></li>
+          <li>Program &amp; Episode <a href="javascript:void(0)">edit</a></li>
+          <li>Story Audio <a href="javascript:void(0)">assign audio</a></li>
         </ul>
       </div>
     </div>
 
     <!-- Promotion -->
     <div class="ma4 lh-copy ba br2">
-      <h2 class="mt0 bb pa3 f4">Promotion</h2>
+      <h2 class="mt0 bb pa3 f4 bg-black-10">Promotion</h2>
       <div class="ma3">
         <h3>Standard</h3>
         <ul class="list pl0">
-          <li class="">Featured audio/video <a href="#" onclick="toggle_visibility('audio-overlay');">edit</a></li>
-          <li>Wide Image <a href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
-          <li>Standard Image/Slideshow <a href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
-          <li>Square Image <a href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
+          <li class="">Featured audio/video <a href="javascript:void(0)" onclick="toggle_visibility('audio-overlay');">add</a></li>
+          <li>Wide Image <a href="javascript:void(0)" onclick="toggle_visibility('photo-overlay');">add</a></li>
+          <li>Standard Image/Slideshow <a href="javascript:void(0)" onclick="toggle_visibility('photo-overlay');">add</a></li>
+          <li>Square Image <a href="javascript:void(0)" onclick="toggle_visibility('photo-overlay');">add</a></li>
         </ul>
 
         <h3>Specialized</h3>
         <ul class="list pl0">
-          <li class="">Featured Book Edition <a href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
-          <li class="">Music Brick Image <a href="#" onclick="toggle_visibility('photo-overlay');">edit</a></li>
-          <li class="">NPR One Promo Audio <a href="#" onclick="toggle_visibility('audio-overlay');">edit</a></li>
-          <li class="">NPR One Intro Audio <a href="#" onclick="toggle_visibility('audio-overlay');">edit</a></li>
+          <li class="">Featured Book Edition <a href="javascript:void(0)" onclick="toggle_visibility('photo-overlay');">add</a></li>
+          <li class="">Music Brick Image <a href="javascript:void(0)" onclick="toggle_visibility('photo-overlay');">add</a></li>
+          <li class="">NPR One Promo Audio <a href="javascript:void(0)" onclick="toggle_visibility('audio-overlay');">add</a></li>
+          <li class="">NPR One Intro Audio <a href="javascript:void(0)" onclick="toggle_visibility('audio-overlay');">add</a></li>
         </ul>
 
       </div>
@@ -65,7 +61,7 @@ layout: default
 
     <!-- Settings -->
     <div class="ma4 lh-copy ba br2">
-      <h2 class="mt0 bb pa3 f4">Settings</h2>
+      <h2 class="mt0 bb pa3 f4 bg-black-10">Settings</h2>
       <div class="ma3">
         {% include settings.html %}
       </div>
@@ -73,7 +69,7 @@ layout: default
 
     <!-- Correction -->
     <div class="ma4 lh-copy ba br2">
-      <h2 class="mt0 bb pa3 f4">Correction</h2>
+      <h2 class="mt0 bb pa3 f4 bg-black-10">Correction</h2>
       <div class="ma3">
       </div>
     </div>
