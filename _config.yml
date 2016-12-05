@@ -1,7 +1,7 @@
 # Site settings
 title: Seamus
 version: "v1"
-description: "Stop writing CSS and start building prototypes."
+desc: "Wireframes exploring how we might re-organize story metadata in the Seamus story editor."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
