@@ -3,12 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 52.5 52.5" style="enable-background:new 0 0 52.5 52.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
+	.st0{fill:#357EDD;}
 </style>
-<circle cx="26.2" cy="26.2" r="26.2"/>
-<g>
-	<rect x="23.7" y="15.3" class="st0" width="5.1" height="21.8"/>
-	
-		<rect x="23.7" y="15.3" transform="matrix(4.509441e-11 1 -1 4.509441e-11 52.4752 -1.183398e-09)" class="st0" width="5.1" height="21.8"/>
-</g>
+<path class="st0" d="M26.2,0C11.7,0,0,11.7,0,26.2s11.7,26.2,26.2,26.2s26.2-11.7,26.2-26.2S40.7,0,26.2,0z M37.2,28.8h-8.4v8.3
+	h-5.1v-8.3h-8.3v-5.1h8.3v-8.4h5.1v8.4h8.4V28.8z"/>
 </svg>
