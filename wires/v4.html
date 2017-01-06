@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="dim pa4 bb b--black">
+  <a class="link black" href=""><img class="w3 mr2 fl" src="{{ site.baseurl }}/images/npr-logo.svg"> <div class="f4">seamus</div></a>
+</div>
+
+<div class="f6 mw-9 center">
+  <!-- Editor – More may end up here -->
+  {% include story-editor.html %}
+
+  <!-- Sidebar -->
+  <div class="w-33 fl">
+
+    <div class="ma4 ba br2">
+      <div class="ma3 lh-more">
+        <ul class="list pl0">
+          <li><strong>Draft ID:</strong> 504648105</li>
+          <li>First saved at 12/08/2016 | 09:54 AM <a href="javascript:void(0)">edit</a></li>
+        </ul>
+        <div class="">
+          <div class="pr2 w-50 fl"><a href="javascript:void(0)" class="br1 pv2 f5 bg-blue white link db dim tc tracked-med">Save</a></div>
+          <div class="pl2 w-50 fl"><a href="javascript:void(0)" class="br1 pv2 f5 bg-blue white link db dim tc tracked-med">Close</a></div>
+        <div class="cf"></div>
+        <a href="javascript:void(0)" class="br1 pv2 f5 bg-blue white link db dim tc tracked-med mt3">Schedule or Block</a>
+        <a class="br1 pa2 f5 bg-blue white link db dim tc mt3" href="javascript:void(0)">Publish Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Associations -->
+    <div class="ma4 ba br2">
+      <h2 class="mt0 bb pa3 f4 bg-black-10">Associations</h2>
+      <div class="ma3 lh-more">
+        <ul class="list pl0">
+          <li>Byline <a href="javascript:void(0)">edit</a></li>
+          <li>Organization <a href="javascript:void(0)">edit</a></li>
+          <li>Digital Associations <a href="javascript:void(0)" onclick="toggle_visibility('topics-overlay');">edit</a></li>
+          <li>Broadcast Associations <a href="javascript:void(0)" onclick="toggle_visibility('broadcast-associations');">edit</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Promotion -->
+    <div class="ma4 ba br2">
+      <h2 class="mt0 bb pa3 f4 bg-black-10">Promotion</h2>
+      <div class="ma3 lh-more">
+        <h3 class="mb0">Standard</h3>
+        <ul class="list pl0 mt0">
+          <li class="">Featured audio/video <a href="javascript:void(0)">add</a></li>
+          <li class="mb1">Wide Image <a href="javascript:void(0)" onclick="toggle_visibility('photo-overlay-edit');">edit</a></li>
+          <div class="relative">
+            <img class="mb2" src="{{ site.baseurl }}/images/dyslexia-brain-science_custom-58450f536025893566554175fb17634ce5aa7496-s1300-c85.jpg">
+            <a href="javascript:void(0)"><img class="dim pa2 absolute top-0 right-0 w1" src="{{ site.baseurl }}/images/close.png"></a>
+          </div>
+          <li>Standard Image/Slideshow <a href="javascript:void(0)">add</a></li>
+          <li>Square Image <a href="javascript:void(0)" onclick="toggle_visibility('photo-overlay-add');">add</a></li>
+        </ul>
+
+        <h3 class="mb0">Specialized</h3>
+        <ul class="list pl0 mt0 lh-more">
+          <li class="">Featured Book Edition <a href="javascript:void(0)">add</a></li>
+          <li class="">Music Brick Image <a href="javascript:void(0)">add</a></li>
+          <li class="">NPR One Promo Audio <a href="javascript:void(0)">add</a></li>
+          <li class="">NPR One Intro Audio <a href="javascript:void(0)">add</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div class="ma4 ba br2">
+      <h2 class="mt0 bb pa3 f4 bg-black-10">Settings</h2>
+      <div class="ma3 lh-more">
+        {% include settings.html %}
+      </div>
+    </div>
+  </div>
+</div>
